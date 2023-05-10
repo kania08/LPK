@@ -14,10 +14,10 @@ with st.sidebar:
 #Homepage
 if (selected =='Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
-     st.write('Ekke Rose M.,',
-              'Kania Meilani,',
-              'Lulu lutfihana A.,', 
-              'Pandan Tsiqqa A.,',
+     st.write('Ekke Rose M.,
+              'Kania Meilani,
+              'Lulu lutfihana A., 
+              'Pandan Tsiqqa A.,
               'Stephanny Aprillilova')
         
 image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
