@@ -22,7 +22,8 @@ if (selected == 'Homepage') :
               ,'4.Pandan Tsiqqa A.,'
               ,'5.Stephanny Aprillilova')
     
-    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+    img = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+    st.image(img)
      
      txt = st.text_area('Website','''
      Website ini merupakan situs yang berisi materi dan latihan analisis titrimetri dan kimia organik yang dapat mempermudah kegiatan
