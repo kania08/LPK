@@ -1,5 +1,8 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+from PIL import Image
+
+image = Image.open('2.jpg')
 
 #navigasi sidebar
 with st.sidebar:
