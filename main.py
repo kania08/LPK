@@ -22,10 +22,10 @@ if (selected =='Homepage') :
         
 image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
 st.image(image, caption='Ekke Rose M.',
-              ,'Kania Meilani',
-              ,'Lulu lutfihana A.', 
-              ,'Pandan Tsiqqa A.',
-              ,'Stephanny Aprillilova')
+              'Kania Meilani,'
+              'Lulu lutfihana A.,' 
+              'Pandan Tsiqqa A.,'
+              'Stephanny Aprillilova')
      
     
     
