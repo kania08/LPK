@@ -231,12 +231,43 @@ if (selected == 'Pengolahan Data Titrimetri'):
         
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader ('KODE WARNA')
-    st.write('1 = tidak terjadi perubahan')
-    st.write('2 = merah muda')
+    st.write('0=tidak terjadi perubahan')
+    st.write('1=merah muda')
+    st.write('2=ungu')
+    st.write('3=endapan kuning')
+    st.write('4=endapan merah bata')
+    st.write('5=endapan cermin perak')
+    st.write('6=hijau')
+    st.write('7=coklat')
     
-    st.subheader('Uji Ceric Nitrat')
-    perubahan = st.number_input('Masukkan kode warna akhir ')
-    if perubahan==1:
-        st.write('senyawa yang tidak mengandung gugus hidroksil')
-    elif perubahan==2:
-        st.write('senyawa yang mengandung gugus hidroksil')
+    st.subheader('Uji iodoform')
+    perubahan1 = st.number_input('Masukkan warna akhir (ketik dengan huruf kecil)')
+    if perubahan1==3:
+        st.write('alkohol sekunder')
+    elif perubahan1==1:
+        st.write('alkohol primer atau alkohol tersier')
+        
+    st.subheader('Uji schiff')
+    perubahan2 = st.number_input('Masukkan warna akhir (ketik dengan huruf kecil)')
+    if perubahan2==2:
+        st.write('formaldehida')
+    elif perubahan2==1:
+        st.write('aseton')
+    st.subheader('Uji jones')
+    perubahan3 = st.number_input('Masukkan warna akhir (ketik dengan huruf kecil)')
+    if perubahan3==6:
+        st.write('alkohol primer atau alkohol sekunder')
+    elif perubahan3==7:
+        st.write('alkohol tersier')
+    st.subheader('Uji fehling')
+    perubahan4 = st.number_input('Masukkan warna akhir (ketik dengan huruf kecil)')
+    if perubahan4==4:
+        st.write('aldehida')
+    elif perubahan4==1:
+        st.write('keton')
+    st.subheader('Uji tollens')
+    perubahan5 = st.number_input('Masukkan warna akhir (ketik dengan huruf kecil)')
+    if perubahan5==5:
+        st.write('aldehida')
+    elif perubahan5==0:
+        st.write('keton')
