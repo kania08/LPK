@@ -15,12 +15,7 @@ with st.sidebar:
 if (selected == 'Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
      image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
-     st.header('KELOMPOK 3')
-     st.write('1.Ekke Rose M.,'
-              ,'2.Kania Meilani,'
-              ,'3.Lulu lutfihana A.,' 
-              ,'4.Pandan Tsiqqa A.,'
-              ,'5.Stephanny Aprillilova')
+     
     
     
       
