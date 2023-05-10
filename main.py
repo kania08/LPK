@@ -2,8 +2,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from PIL import Image
 
-image = Image.open('2.jpg')
-
 #navigasi sidebar
 with st.sidebar:
     selected = option_menu('Materi & Latihan',
@@ -23,6 +21,8 @@ if (selected == 'Homepage') :
               ,'3.Lulu lutfihana A.,' 
               ,'4.Pandan Tsiqqa A.,'
               ,'5.Stephanny Aprillilova')
+    
+    image = Image.open('2.jpg')
      
      txt = st.text_area('Website','''
      Website ini merupakan situs yang berisi materi dan latihan analisis titrimetri dan kimia organik yang dapat mempermudah kegiatan
