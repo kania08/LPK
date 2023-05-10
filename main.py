@@ -22,8 +22,7 @@ if (selected == 'Homepage') :
               ,'4.Pandan Tsiqqa A.,'
               ,'5.Stephanny Aprillilova')
     
-    img = Image.open('2.jpg')
-    st.image(img)
+    st.image("https://github.com/kania08/LPK/blob/main/Image%202023-05-10%20at%2020.25.25.jpg", width=500)
      
      txt = st.text_area('Website','''
      Website ini merupakan situs yang berisi materi dan latihan analisis titrimetri dan kimia organik yang dapat mempermudah kegiatan
