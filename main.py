@@ -4,7 +4,7 @@ from PIL import Image
 
 #navigasi sidebar
 with st.sidebar:
-    selected = option_menu('Materi & Latihan',
+    selected = option_menu('Analisis Titrimetri & Kimia Organik',
     ['Homepage',
     'Latihan',
     'Pengolahan Data Titrimetri',
@@ -13,7 +13,7 @@ with st.sidebar:
 
 #Homepage
 if (selected =='Homepage') :
-     st.title(':blue[WELCOME TO OUR WEBS]')
+     st.title(':blue[WELCOME!]')
      st.write('Ekke Rose M.',
               'Kania Meilani',
               'Lulu lutfihana A.', 
