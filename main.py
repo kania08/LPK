@@ -14,7 +14,7 @@ with st.sidebar:
 #Homepage
 if (selected =='Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
-      st.write('Ekke Rose M.,'
+     st.write('Ekke Rose M.,'
               ,'Kania Meilani,'
               ,'Lulu lutfihana A.,' 
               ,'Pandan Tsiqqa A.,'
