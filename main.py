@@ -12,7 +12,7 @@ with st.sidebar:
     default_index=0)
 
 #Homepage
-if (selected == 'Homepage') :
+if (selected =='Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
       st.write('Ekke Rose M.,'
               ,'Kania Meilani,'
