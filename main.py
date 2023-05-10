@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from PIL import Image
+
 
 #navigasi sidebar
 with st.sidebar:
@@ -15,8 +15,8 @@ with st.sidebar:
 if (selected == 'Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
         
-     from PIL import Image
-     image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+from PIL import Image
+image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
      
     
     
