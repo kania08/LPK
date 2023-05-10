@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-
+from PIL import Image
 
 #navigasi sidebar
 with st.sidebar:
@@ -20,7 +20,6 @@ if (selected =='Homepage') :
               ,'Pandan Tsiqqa A.,'
               ,'Stephanny Aprillilova')
         
-from PIL import Image
 image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
      
     
