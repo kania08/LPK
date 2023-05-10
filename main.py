@@ -19,10 +19,7 @@ if (selected == 'Homepage') :
     
     
       
-     txt = st.text_area('Website','''
-     Website ini merupakan situs yang berisi materi dan latihan analisis titrimetri dan kimia organik yang dapat mempermudah kegiatan
-     pembelajaran serta sebagai sarana latihan untuk mengasah kemampuan dalam materi tersebut.
-     ''')
+     
         
 #Latihan
 if (selected == 'Latihan') :
