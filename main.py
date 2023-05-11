@@ -91,8 +91,7 @@ elif Soal == "Soal 3":
     elif opsi3:
           st.write("SALAH!!")
     elif opsi4:
-          st.write("SALAH!!")
-            
+          st.write("SALAH!!")     
 elif Soal == "Soal 4":
     st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
@@ -110,8 +109,7 @@ elif Soal == "Soal 4":
          st.write("SALAH!!")
     elif opsi4:
         st.write("BENAR!!")
-         st.balloons()
-        
+         st.balloons() 
 elif Soal == "Soal 5":
     st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
@@ -130,7 +128,6 @@ elif Soal == "Soal 5":
     elif opsi4:
           st.write("BENAR!!")
           st.balloons()
-        
 elif Soal == "Soal 6":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
@@ -167,7 +164,6 @@ elif Soal == "Soal 7":
           st.write("SALAH!!")
     elif opsi4:
          st.write("SALAH!!")
-        
 elif Soal == "Soal 8":
     st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
@@ -186,7 +182,6 @@ elif Soal == "Soal 8":
          st.balloons()
     elif opsi4:
          st.write("BENAR!!")
-        
 elif Soal == "Soal 9":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
@@ -205,7 +200,6 @@ elif Soal == "Soal 9":
           st.write("SALAH!!")
     elif opsi4:
           st.write("SALAH!!")
-        
 elif Soal == "Soal 10 ":
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
