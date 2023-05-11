@@ -237,7 +237,7 @@ if (selected == 'Analisa Data Kimia Organik'):
     jawaban = st.selectbox(
     'Warna akhir'
     ('Tidak Terjadi Perubahan','merah ceri'))
-    if jawaban == Tidak Terjadi Perubahan:
+    if jawaban == "Tidak Terjadi Perubahan":
         st.write('Senyawa tidak mengandung gugus Hidroksil')
-    else jawaban == merah ceri:
+    else jawaban == "merah ceri":
         st.write('Senyawa mengandung gugus Hidroksil')
