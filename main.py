@@ -218,7 +218,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
    
  with tab4:
-        st.header("Aalisa Dta Kimia Organik")
+        st.header("Analisa data kimia organik")
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
         st.button("uji ceric nitrat")
 
