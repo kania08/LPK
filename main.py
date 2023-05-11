@@ -200,7 +200,7 @@ elif Soal == "Soal 9":
           st.write("SALAH!!")
     elif opsi4:
           st.write("SALAH!!")
-elif Soal == "Soal 10 ":
+elif Soal == "Soal 10":
     st.write("Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
