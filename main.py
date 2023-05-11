@@ -234,13 +234,13 @@ if (selected == 'Pengolahan Data Titrimetri'):
 if (selected == 'Analisa Data Kimia Organik'):
     sampel = st.write('1-butanol','2-butanol','t-butilalkohol','heksana','formaldehida','aseton')
     ujisampel = st.write('uji ceric nitrat')
-    tombol=st.button('warna akhir sampel')
+    perubahan = st.button('warna akhir sampel')
     sampel == "1-butanol","2-butanol","t-butilalkohol"
-    if jawaban == "merah ceri":
+    if warna akhir sampel == "merah ceri":
         st.write("alkohol")
-    sampel == "heksana","ormaldehida","aseton"
-    if jawaban == "tidak terjadi perubahan":
-        st.write("aldehida dan keton")
+    sampel == "heksana","formaldehida","aseton"
+    if warna akhir sampel == "tidak terjadi perubahan":
+        st.write("aldehida","keton")
         
     
     
