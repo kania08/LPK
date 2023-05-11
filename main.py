@@ -234,6 +234,10 @@ if (selected == 'Pengolahan Data Titrimetri'):
         
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader('Uji Ceric Nitrat')
-    option = st.selectbox(
+    jawaban = st.selectbox(
     'Warna akhir'
     ('Tidak Terjadi Perubahan','merah ceri'))
+    if jawaban == Tidak Terjadi Perubahan:
+        st.write('Senyawa tidak mengandung gugus Hidroksil')
+    else jawaban == merah ceri:
+        st.write('Senyawa mengandung gugus Hidroksil')
