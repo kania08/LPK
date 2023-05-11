@@ -222,7 +222,7 @@ elif Soal == "Soal 10 ":
         st.write("salah")
     elif opsi4:
         st.write("salah")
-#PENGOLAHAN DATA TITRIMETRI   
+#Pengolahan data titrimetri  
 if (selected == 'Pengolahan Data Titrimetri'):
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
@@ -231,7 +231,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
     if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
-#ANALISA DATA KIMIA ORGANIK       
+#Analisa data kimia organik       
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader('Uji Ceric Nitrat')
     jawaban = st.selectbox(
