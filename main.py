@@ -32,6 +32,7 @@ st.image(image, caption='labs')
 soal = st.selecbox(
     'pilih soal'
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
+    
 if soal == "soal 1"
     st.write("1. Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
