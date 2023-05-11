@@ -236,10 +236,10 @@ if (selected == 'Analisa Data Kimia Organik'):
     ujisampel = st.write('uji ceric nitrat')
     perubahan = st.button('warna akhir sampel')
     sampel == "1-butanol","2-butanol","t-butilalkohol"
-    if warna akhir sampel == "merah ceri":
+    if perubahan == "merah ceri":
         st.write("alkohol")
     sampel == "heksana","formaldehida","aseton"
-    if warna akhir sampel == "tidak terjadi perubahan":
+    if perubahan == "tidak terjadi perubahan":
         st.write("aldehida","keton")
         
     
