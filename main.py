@@ -9,7 +9,7 @@ from PIL import Image
 with st.sidebar:
     selected = option_menu('Analisis Titrimetri & Kimia Organik',
     ['Homepage',
-    'Latihan',
+    'Latihan soal',
     'Pengolahan Data Titrimetri',
     'Analisa Data Kimia Organik'],
     default_index=0)
@@ -222,6 +222,8 @@ elif Soal == "Soal 10 ":
         st.write("salah")
     elif opsi4:
         st.write("salah")
+        
+        
 #Pengolahan data titrimetri  
 if (selected == 'Pengolahan Data Titrimetri'):
     bobot = st.number_input('Masukkan bobot sample')
@@ -231,6 +233,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
     if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
+        
 #Analisa data kimia organik       
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader('Uji Ceric Nitrat')
