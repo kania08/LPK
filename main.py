@@ -34,7 +34,7 @@ soal = st.selecbox(
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
     
 if soal == "soal 1"
-    st.write("1. Titran pada standardisasi alkalimetri adalah...")
+    st.write("Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
@@ -53,7 +53,7 @@ if soal == "soal 1"
         st.balloons()
 
 else soal == "soal 2"
-    st.write("2. Indikator dalam standardisasi NaOH adalah...")
+    st.write("Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("SM")
@@ -72,7 +72,7 @@ else soal == "soal 2"
         st.write("salah")
         
 else soal == "soal 3"
-    st.write("3. K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
+    st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("NA2S2O3 0,1N")
@@ -91,7 +91,7 @@ else soal == "soal 3"
         st.write("salah")
         
 else soal == "soal 4"
-    st.write("4. Mengapa pada titrasi permanganometri tidak digunakan indikator...")
+    st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
@@ -110,7 +110,7 @@ else soal == "soal 4"
         st.balloons()
         
 else soal == "soal 5"
-    st.write("5.Trayek pH Fenolftalein adalah...")
+    st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("3,1 - 4,4")
@@ -129,7 +129,7 @@ else soal == "soal 5"
         st.balloons()
         
 else soal == "soal 6"
-    st.write("6. Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
+    st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("1-bromo-1-siklobutilpropana dan 2-bromopropana")
@@ -148,7 +148,7 @@ else soal == "soal 6"
         st.write("salah") 
         
 else soal == "soal 7"
-    st.write("7. Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
+    st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("AgNO3 + NaOH + NH4OH")
@@ -167,8 +167,7 @@ else soal == "soal 7"
         st.write("salah")
         
 else soal == "soal 8"
-
-    st.write("8. Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
+    st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("3-bromo-4-metilheksana")
@@ -186,8 +185,8 @@ else soal == "soal 8"
     elif opsi4:
         st.write("salah")
         
-  else soal == "soal 8"
-    st.write("9. Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
+  else soal == "soal 9"
+    st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("Endapan merah bata")
@@ -205,7 +204,7 @@ else soal == "soal 8"
     elif opsi4:
         st.write("salah")
         
-else soal == "soal 10"
+else soal == "soal 10 "
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
