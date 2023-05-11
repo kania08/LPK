@@ -6,11 +6,11 @@ tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data A
 with tab1:
    st.header("Homepage")
    st.title(':blue[WELCOME!]')
-     st.write('Ekke Rose M.,'
-              'Kania Meilani,'
-              'Lulu lutfihana A.,' 
-              'Pandan Tsiqqa A.,'
-              'Stephanny Aprillilova')
+   st.write('1. Ekke Rose M.,'
+            '2. Kania Meilani,'
+            '3. Lulu lutfihana A.,' 
+            '4. Pandan Tsiqqa A.,'
+            '5. Stephanny Aprillilova')
    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
    st.image(image, caption='labs')
    if st.button('FILOSOFI TEMA'):
