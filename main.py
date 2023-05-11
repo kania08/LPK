@@ -217,8 +217,8 @@ if (selected == 'Pengolahan Data Titrimetri'):
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
    
- with tab4:
-        st.header("Analisa data kimia organik")
+with tab4:
+        st.header("Analisa data kimia Organik")
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
         st.button("uji ceric nitrat")
 
