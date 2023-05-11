@@ -13,7 +13,7 @@ with tab1:
             '5. Stephanny Aprillilova')
    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
    st.image(image, caption='anak kimia')
-   st.caption('FILOSOFI TEMA')
+   st.header('FILOSOFI TEMA')
    st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
 
@@ -208,7 +208,7 @@ with tab3:
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
     Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
     tombol=st.button('hitung normalitas')
-    if tombol:
+    tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}') 
       
