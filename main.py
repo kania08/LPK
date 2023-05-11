@@ -237,10 +237,10 @@ if (selected == 'Analisa Data Kimia Organik'):
     sampel = st.write_input('masukkan sampel')
     ujisampel = st.write_input('masukkan uji sampel')
     tombol=st.button('warna akhir sampel')
-    if sampel == "1-butanol","2-butanol","t-butilalkohol"
+    sampel == "1-butanol","2-butanol","t-butilalkohol"
     if jawaban == "merah ceri":
         st.write('alkohol')
-    if sampel == "heksana","ormaldehida","aseton"
+    sampel == "heksana","ormaldehida","aseton"
     elif jawaban == "tidak terjadi perubahan":
         st.write('aldehida dan keton")
         
