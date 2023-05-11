@@ -237,7 +237,7 @@ if (selected == 'Analisa Data Kimia Organik'):
     st.write('2 = merah muda')
     
     st.subheader('Uji Ceric Nitrat')
-    perubahan = st.number_input('Masukkan kode warna akhir ')
+    perubahan = st.number_input('Masukkan kode warna akhir (1 atau2) ')
     if perubahan==1:
         st.write('senyawa yang tidak mengandung gugus hidroksil')
     elif perubahan==2:
