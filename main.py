@@ -31,7 +31,7 @@ st.image(image, caption='labs')
 #Latihan
 soal = st.selecbox(
     'pilih soal'
-    ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
+    ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh'))
     
 if soal == "soal 1"
     st.write("Titran pada standardisasi alkalimetri adalah...")
