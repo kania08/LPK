@@ -5,7 +5,6 @@ from PIL import Image
 tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
 with tab1:
-   st.header("A Homepage")
    st.title(':blue[WELCOME!]')
    st.write('1. Ekke Rose M.,'
             '2. Kania Meilani,'
