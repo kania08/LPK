@@ -235,5 +235,5 @@ if (selected == 'Pengolahan Data Titrimetri'):
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader('Uji Ceric Nitrat')
     option = st.selectbox(
-    'Warna akhir',
-    ('Tidak Terjadi Perubahan','merah ceri')
+    'Warna akhir'
+    ('Tidak Terjadi Perubahan','merah ceri'))
