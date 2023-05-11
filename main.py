@@ -239,10 +239,10 @@ if (selected == 'Analisa Data Kimia Organik'):
     tombol=st.button('warna akhir sampel')
     sampel == "1-butanol","2-butanol","t-butilalkohol"
     if jawaban == "merah ceri":
-        st.write('alkohol')
+        st.write("alkohol")
     sampel == "heksana","ormaldehida","aseton"
     if jawaban == "tidak terjadi perubahan":
-        st.write('aldehida dan keton")
+        st.write("aldehida dan keton")
         
     
     
