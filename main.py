@@ -1,40 +1,25 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 import streamlit as st
 
-from PIL import Image
+tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
-
-#navigasi sidebar
-with st.sidebar:
-    selected = option_menu('Analisis Titrimetri & Kimia Organik',
-    ['Homepage',
-    'Latihan soal',
-    'Pengolahan Data Titrimetri',
-    'Analisa Data Kimia Organik'],
-    default_index=0)
-
-#Homepage
-if (selected =='Homepage') :
-     st.title(':blue[WELCOME!]')
-     st.write('Ekke Rose M.,'
-              'Kania Meilani,'
-              'Lulu lutfihana A.,' 
-              'Pandan Tsiqqa A.,'
-              'Stephanny Aprillilova')
-        
-image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
-st.image(image, caption='labs')
-if st.button('FILOSOFI TEMA'):
+with tab1:
+   st.header("Homepage")
+   st.title(':blue[WELCOME!]')
+     st.write('1. Ekke Rose M.,'
+              '2. Kania Meilani,'
+              '3. Lulu lutfihana A.,' 
+              '4. Pandan Tsiqqa A.,'
+              '5. Stephanny Aprillilova')
+   image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+   st.image(image, caption='labs')
+   if st.button('FILOSOFI TEMA'):
     st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
-    
-    
-      
-     
-        
-#Latihan soal
-Soal=st.selectbox(
+
+with tab2:
+   st.header("Latihan Soal")
+   Soal=st.selectbox(
     'pilih soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
     
@@ -218,9 +203,11 @@ elif Soal == "Soal 10":
         st.write("SALAH!!")
     elif opsi4:
         st.write("SALAH!!")
-        
-        
-#Pengolahan data titrimetri  
+   
+   
+
+with tab3:
+   st.header("Pengolahan Data Analisis Titrimetri")
 if (selected == 'Pengolahan Data Titrimetri'):
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
@@ -229,11 +216,11 @@ if (selected == 'Pengolahan Data Titrimetri'):
     if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
-        
-#Analisa data kimia organik       
-if (selected == 'Analisa Data Kimia Organik'):
-    st.button('1-butanol','2-butanol','t-butilalkohol','heksana','formaldehida','aseton')
-    st.button('uji ceric nitrat')
+   
+ with tab4:
+        st.header("Aalisa Dta Kimia Organik")
+        st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
+        st.button("uji ceric nitrat")
 
     sampel = st.text_input('masukkan sampel')
     ujisampel = st.text_input('masukkan uji sampel')
@@ -244,6 +231,14 @@ if (selected == 'Analisa Data Kimia Organik'):
     sampel == "heksana","formaldehida","aseton"
     if perubahanwarna == "tidak terjadi perubahan warna":
         st.write("aldehida","keton")
+        
+
+
+
+        
+
+        
+
         
     
     
