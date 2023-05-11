@@ -33,8 +33,10 @@ soal = st.selecbox(
     'pilih soal'
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh'))
     
-if soal == "soal 1":
-    st.write("Titran pada standardisasi alkalimetri adalah...")
+if (selected == 'soal 1') :
+    st.title('Latihan Soal')
+    #soal pertama
+    st.write("1.nkkjll")
     col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
@@ -71,7 +73,7 @@ else soal == "soal 2":
     elif opsi4:
         st.write("salah")
         
- else soal == "soal 3":
+else soal == "soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
@@ -185,7 +187,7 @@ else soal == "soal 8":
     elif opsi4:
         st.write("salah")
         
-  else soal == "soal 9":
+else soal == "soal 9":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
