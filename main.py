@@ -14,7 +14,6 @@ with tab1:
             '5. Stephanny Aprillilova')
    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
    st.image(image, caption='anak kimia')
-   
 if st.button('FILOSOFI TEMA'):
    st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
@@ -204,6 +203,8 @@ elif Soal == "Soal 10":
         st.write("SALAH!!")
     elif opsi4:
         st.write("SALAH!!")
+         
+         
 with tab3:
     st.header("Pengolahan Data Analisis Titrimetri")
     bobot = st.number_input('Masukkan bobot sample')
@@ -213,6 +214,8 @@ with tab3:
     if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}') 
+      
+      
 with tab4:
         st.header("Analisa data kimia Organik")
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
