@@ -195,7 +195,7 @@ elif Soal == "Soal 9":
           st.write("SALAH!!")
     elif opsi2:
          st.write("BENAR!!")
-          st.balloons()
+         st.balloons()
     elif opsi3:
           st.write("SALAH!!")
     elif opsi4:
