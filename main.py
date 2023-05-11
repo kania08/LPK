@@ -237,22 +237,15 @@ if (selected == 'Analisa Data Kimia Organik'):
     sampel = st.write_input('masukkan sampel')
     ujisampel = st.write_input('masukkan uji sampel')
     tombol=st.button('warna akhir sampel')
+    if sampel == "1-butanol","2-butanol","t-butilalkohol"
     if jawaban == "merah ceri":
         st.write('alkohol')
-        if sampel == "1-butanol","2-butanol","t-butilalkohol"
+    if sampel == "heksana","ormaldehida","aseton"
     elif jawaban == "tidak terjadi perubahan":
         st.write('aldehida dan keton")
-        if sampel == "heksana","ormaldehida","aseton"
-                
+        
     
     
      
     
-    if tombol:
-        
-    
-    
-    if jawaban == "Tidak Terjadi Perubahan":
-        st.write('Senyawa tidak mengandung gugus Hidroksil')
-    elif jawaban == "merah ceri":
-        st.write('Senyawa mengandung gugus Hidroksil')
+   
