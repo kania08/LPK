@@ -106,10 +106,10 @@ elif Soal == "Soal 4":
     elif opsi2:
         st.write("SALAH!!")
     elif opsi3:
-         st.write("SALAH!!")
+        st.write("SALAH!!")
     elif opsi4:
         st.write("BENAR!!")
-         st.balloons() 
+        st.balloons() 
 elif Soal == "Soal 5":
     st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
