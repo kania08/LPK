@@ -25,9 +25,9 @@ if (selected =='Homepage') :
         
 image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
 st.image(image, caption='labs')
-filosofi logo=st.selectbox(
+filosofilogo=st.selectbox(
     'filosofi'
-    st.write("tema kita yaitu 'LABERS' yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian")
+    st.write("tema kita yaitu 'LABERS' yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian"))
      
     
     
