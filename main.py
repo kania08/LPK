@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit as st
+from PIL import Image
 
 tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
@@ -11,7 +12,8 @@ with tab1:
             '3. Lulu lutfihana A.,' 
             '4. Pandan Tsiqqa A.,'
             '5. Stephanny Aprillilova')
-   st.image = (https://github.com/kania08/LPK/blob/main/Image%202023-05-10%20at%2020.25.25.jpg')
+   image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+   st.image(image, caption='anak kimia')
    
    if st.button('FILOSOFI TEMA'):
     st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
