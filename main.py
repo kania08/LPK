@@ -233,7 +233,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
 #Analisa data kimia organik       
 if (selected == 'Analisa Data Kimia Organik'):
     sampel = st.write_input('masukkan sampel yang digunakan')
-    uji sampel = st.write_input('masukkan uji sampel')
+    ujisampel = st.write_input('masukkan uji sampel')
     tombol=st.button('warna akhir sampel')
     sampel == "1-butanol","2-butanol","t-butilalkohol"
     if jawaban == "merah ceri":
