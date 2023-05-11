@@ -33,7 +33,7 @@ soal = st.selecbox(
     'pilih soal'
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh'))
     
-if soal == "soal 1" :
+if soal == "soal 1":
     st.write("Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -52,7 +52,7 @@ if soal == "soal 1" :
         st.write ("Benar")
         st.balloons()
 
-else soal == "soal 2" :
+if soal == "soal 2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
