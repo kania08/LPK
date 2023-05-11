@@ -241,7 +241,7 @@ if (selected == 'Analisa Data Kimia Organik'):
     if jawaban == "merah ceri":
         st.write('alkohol')
     sampel == "heksana","ormaldehida","aseton"
-    elif jawaban == "tidak terjadi perubahan":
+    if jawaban == "tidak terjadi perubahan":
         st.write('aldehida dan keton")
         
     
