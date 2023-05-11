@@ -50,12 +50,12 @@ if Soal == "Soal 1":
     if opsi1:
         st.write("SALAH!!")
     elif opsi2:
-         st.write("SALAH!!") 
+        st.write("SALAH!!") 
     elif opsi3:
-         st.write("SALAH!!")
+        st.write("SALAH!!")
     elif opsi4:
-          st.write("BENAR!!")
-          st.balloons()
+        st.write("BENAR!!")
+        st.balloons()
 elif Soal == "Soal2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
@@ -66,14 +66,14 @@ elif Soal == "Soal2":
         opsi3= st.button("PP")
         opsi4= st.button("BTB")
     if opsi1:
-          st.write("SALAH!!")
+        st.write("SALAH!!")
     elif opsi2:
-          st.write("SALAH!!")
+        st.write("SALAH!!")
     elif opsi3:
-          st.write("BENAR!!")
-          st.balloons()
+        st.write("BENAR!!")
+        st.balloons()
     elif opsi4:
-          st.write("SALAH!!")
+        st.write("SALAH!!")
 elif Soal == "Soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
