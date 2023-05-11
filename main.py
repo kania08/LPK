@@ -5,7 +5,7 @@ from PIL import Image
 tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
 with tab1:
-   st.header("Homepage")
+   st.header("A Homepage")
    st.title(':blue[WELCOME!]')
    st.write('1. Ekke Rose M.,'
             '2. Kania Meilani,'
@@ -19,7 +19,7 @@ if st.button('FILOSOFI TEMA'):
     
 
 with tab2:
-   st.header("Latihan Soal")
+   st.header("A Latihan Soal")
    Soal=st.selectbox(
     'pilih soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
@@ -206,7 +206,7 @@ elif Soal == "Soal 10":
          
          
 with tab3:
-    st.header("Pengolahan Data Analisis Titrimetri")
+    st.header("A Pengolahan Data Analisis Titrimetri")
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
     Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
@@ -217,7 +217,7 @@ with tab3:
       
       
 with tab4:
-        st.header("Analisa data kimia Organik")
+        st.header("A Analisa data kimia Organik")
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
         st.button("uji ceric nitrat")
 
