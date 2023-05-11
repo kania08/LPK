@@ -69,7 +69,7 @@ elif soal == "soal2":
         st.title(':red[salah!!!]')
     elif opsi3:
        st.title(':green[benar!!!]')
-        st.balloons()
+       st.balloons()
     elif opsi4:
         st.title(':red[salah!!!]')
 elif soal == "soal 3":
