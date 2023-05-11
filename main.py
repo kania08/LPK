@@ -15,8 +15,8 @@ with tab1:
    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
    st.image(image, caption='anak kimia')
    
-    st.button('FILOSOFI TEMA'):
-    st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
+    if st.button('FILOSOFI TEMA'):
+       st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
 
 with tab2:
@@ -24,7 +24,6 @@ with tab2:
    Soal=st.selectbox(
     'pilih soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
-    
  if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
@@ -205,9 +204,6 @@ elif Soal == "Soal 10":
         st.write("SALAH!!")
     elif opsi4:
         st.write("SALAH!!")
-   
-   
-
 with tab3:
     st.header("Pengolahan Data Analisis Titrimetri")
     bobot = st.number_input('Masukkan bobot sample')
@@ -216,8 +212,7 @@ with tab3:
     tombol=st.button('hitung normalitas')
     if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
-        st.success(f'nilai normalitas adalah{nilai_normalitas}')
-   
+        st.success(f'nilai normalitas adalah{nilai_normalitas}') 
 with tab4:
         st.header("Analisa data kimia Organik")
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
