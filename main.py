@@ -29,6 +29,9 @@ st.image(image, caption='labs')
      
         
 #Latihan
+soal = st.selecbox(
+    'pilih soal'
+    ('soal pertama','soal kedua','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
 if (selected == 'Latihan') :
     st.title('Latihan Soal')
     #soal pertama
