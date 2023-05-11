@@ -232,8 +232,8 @@ if (selected == 'Pengolahan Data Titrimetri'):
         
 #Analisa data kimia organik       
 if (selected == 'Analisa Data Kimia Organik'):
-    st.warning('1-butanol','2-butanol','t-butilalkohol','heksana','formaldehida','aseton', icon="⚠️")
-    st.warning('uji ceric nitrat', icon="⚠️")
+    st.button('1-butanol','2-butanol','t-butilalkohol','heksana','formaldehida','aseton')
+    st.button('uji ceric nitrat')
 
     sampel = st.text_input('masukkan sampel')
     ujisampel = st.text_input('masukkan uji sampel')
