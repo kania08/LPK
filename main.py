@@ -31,10 +31,8 @@ st.image(image, caption='labs')
 #Latihan
 soal = st.selecbox(
     'pilih soal'
-    ('soal pertama','soal kedua','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
-if (selected == 'Latihan') :
-    st.title('Latihan Soal')
-    #soal pertama
+    ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh')
+if soal == "soal 1"
     st.write("1. Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -53,7 +51,7 @@ if (selected == 'Latihan') :
         st.write ("Benar")
         st.balloons()
 
-    #soal kedua
+else soal == "soal 2"
     st.write("2. Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -72,7 +70,7 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah")
         
-    #Soal ketiga
+else soal == "soal 3"
     st.write("3. K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
@@ -91,7 +89,7 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah")
         
-    #Soal keempat
+else soal == "soal 4"
     st.write("4. Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
@@ -110,7 +108,7 @@ if (selected == 'Latihan') :
         st.write("benar")
         st.balloons()
         
-    #Soal kelima
+else soal == "soal 5"
     st.write("5.Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -129,7 +127,7 @@ if (selected == 'Latihan') :
         st.write("benar")
         st.balloons()
         
-    #Soal keenam
+else soal == "soal 6"
     st.write("6. Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -148,7 +146,7 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah") 
         
-    #Soal ketujuh
+else soal == "soal 7"
     st.write("7. Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -167,8 +165,8 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah")
         
+else soal == "soal 8"
 
-    #Soal kedelapan
     st.write("8. Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -187,7 +185,7 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah")
         
-    #Soal kesembilan
+  else soal == "soal 8"
     st.write("9. Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
@@ -206,7 +204,7 @@ if (selected == 'Latihan') :
     elif opsi4:
         st.write("salah")
         
-    #Soal kesepuluh
+else soal == "soal 10"
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
