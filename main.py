@@ -46,7 +46,7 @@ if soal == "soal 1":
         opsi3 = st.button("AgNO3")
         opsi4 = st.button("NaOH")
     if opsi1:
-        st.title(':red[salah!!!]')
+        st.write(':red[salah!!!]')
     elif opsi2:
         st.title(':red[salah!!!]')
     elif opsi3:
