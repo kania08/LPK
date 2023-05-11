@@ -222,10 +222,10 @@ with tab4:
         st.button("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
         st.button("uji ceric nitrat")
 
-    sampel = st.text_input('masukkan sampel')
-    ujisampel = st.text_input('masukkan uji sampel')
-    perubahanwarna = st.button('warna akhir sampel')
-    sampel == "1-butanol","2-butanol","t-butilalkohol"
+sampel = st.text_input('masukkan sampel')
+ujisampel = st.text_input('masukkan uji sampel')
+perubahanwarna = st.button('warna akhir sampel')
+sampel == "1-butanol","2-butanol","t-butilalkohol"
     if perubahanwarna == "merah ceri":
         st.write("alkohol")
     sampel == "heksana","formaldehida","aseton"
