@@ -201,7 +201,7 @@ elif Soal == "Soal 9":
     elif opsi4:
           st.write("SALAH!!")
 elif Soal == "Soal 10 ":
-    st.write("10. Kenapa keton sulit dioksidasi?")
+    st.write("Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena pH 10")
