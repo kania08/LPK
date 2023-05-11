@@ -241,7 +241,7 @@ if (selected == 'Analisa Data Kimia Organik'):
     if perubahanwarna == "merah ceri":
         st.write("alkohol")
     sampel == "heksana","formaldehida","aseton"
-    elif perubahanwarna == "tidak terjadi perubahan":
+    if perubahanwarna == "tidak terjadi perubahan warna":
         st.write("aldehida","keton")
         
     
