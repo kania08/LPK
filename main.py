@@ -33,10 +33,8 @@ soal = st.selecbox(
     'pilih soal'
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh'))
     
-if (selected == 'soal 1') :
-    st.title('Latihan Soal')
-    #soal pertama
-    st.write("1.nkkjll")
+if soal == "soal 1":
+    st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
@@ -53,8 +51,7 @@ if (selected == 'soal 1') :
     elif opsi4:
         st.write ("Benar")
         st.balloons()
-
-else soal == "soal 2":
+elif soal == "soal2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -72,8 +69,7 @@ else soal == "soal 2":
         st.balloons()
     elif opsi4:
         st.write("salah")
-        
-else soal == "soal 3":
+elif soal == "soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
@@ -92,7 +88,7 @@ else soal == "soal 3":
     elif opsi4:
         st.write("salah")
         
-else soal == "soal 4":
+elif soal == "soal 4":
     st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
@@ -111,7 +107,7 @@ else soal == "soal 4":
         st.write("benar")
         st.balloons()
         
-else soal == "soal 5":
+elif soal == "soal 5":
     st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -130,7 +126,7 @@ else soal == "soal 5":
         st.write("benar")
         st.balloons()
         
-else soal == "soal 6":
+elif soal == "soal 6":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -149,7 +145,7 @@ else soal == "soal 6":
     elif opsi4:
         st.write("salah") 
         
-else soal == "soal 7":
+elif soal == "soal 7":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -168,7 +164,7 @@ else soal == "soal 7":
     elif opsi4:
         st.write("salah")
         
-else soal == "soal 8":
+elif soal == "soal 8":
     st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -187,7 +183,7 @@ else soal == "soal 8":
     elif opsi4:
         st.write("salah")
         
-else soal == "soal 9":
+elif soal == "soal 9":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
@@ -206,7 +202,7 @@ else soal == "soal 9":
     elif opsi4:
         st.write("salah")
         
-else soal == "soal 10 ":
+elif soal == "soal 10 ":
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
