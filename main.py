@@ -208,7 +208,7 @@ with tab3:
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
     Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
     tombol=st.button('hitung normalitas')
-    tombol:
+    if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}') 
       
