@@ -48,13 +48,13 @@ if Soal == "Soal 1":
         opsi3 = st.button("AgNO3")
         opsi4 = st.button("NaOH")
     if opsi1:
-        st.write("salah")
+        st.write("SALAH!!")
     elif opsi2:
-          st.write("salah")
+         st.write("SALAH!!") 
     elif opsi3:
-          st.write("salah")
+         st.write("SALAH!!")
     elif opsi4:
-          st.write("salah")
+          st.write("BENAR!!")
           st.balloons()
 elif Soal == "Soal2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
@@ -66,14 +66,14 @@ elif Soal == "Soal2":
         opsi3= st.button("PP")
         opsi4= st.button("BTB")
     if opsi1:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-          st.write("salah")
+          st.write("BENAR!!")
           st.balloons()
     elif opsi4:
-          st.write("salah")
+          st.write("SALAH!!")
 elif Soal == "Soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
@@ -84,14 +84,14 @@ elif Soal == "Soal 3":
         opsi3= st.button("Na2B407,1N")
         opsi4= st.button("HCl 0,1N")
     if opsi1:
-          st.write("benar")
+          st.write("BENAR!!")
           st.balloons()
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi4:
-          st.write("salah")
+          st.write("SALAH!!")
             
 elif Soal == "Soal 4":
     st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
@@ -103,13 +103,13 @@ elif Soal == "Soal 4":
         opsi3= st.button("karena asam oksalat bersifat auto indikator")
         opsi4= st.button("karena KMnO4 bersifat auto indikator")
     if opsi1:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi2:
-         st.write("salah")
+        st.write("SALAH!!")
     elif opsi3:
-         st.write("salah")
+         st.write("SALAH!!")
     elif opsi4:
-         st.write("salah")
+        st.write("BENAR!!")
          st.balloons()
         
 elif Soal == "Soal 5":
@@ -122,13 +122,13 @@ elif Soal == "Soal 5":
         opsi3= st.button("4,2 - 6,3")
         opsi4= st.button("8,2 - 10")
     if opsi1:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-          st.write("salah")
+         st.write("SALAH!!")
     elif opsi4:
-          st.write("salah")
+          st.write("BENAR!!")
           st.balloons()
         
 elif Soal == "Soal 6":
@@ -141,14 +141,14 @@ elif Soal == "Soal 6":
         opsi3= st.button("2-bromo-3-siklobutilpentana dan metilbromida")
         opsi4= st.button("2-bromopropana dan 1-bromo-1-siklopropilpropana")
     if opsi1:
-          st.write("salah")
+         st.write("SALAH!!")
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-          st.write("salah")
+          st.write("BENAR!!")
           st.balloons()
     elif opsi4:
-          st.write("salah")
+          st.write("SALAH!!")
 elif Soal == "Soal 7":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
@@ -159,14 +159,14 @@ elif Soal == "Soal 7":
         opsi3= st.button("CuSO4 + NaOH + NaK-Tartrat")
         opsi4= st.button("CuSO4 + Na2CO3")
     if opsi1:
-          st.write("benar")
+          st.write("BENAR!!")
           st.balloons()
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi4:
-          st.write("salah")
+         st.write("SALAH!!")
         
 elif Soal == "Soal 8":
     st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
@@ -178,14 +178,14 @@ elif Soal == "Soal 8":
         opsi3= st.button("3-bromo-3-metilheksana")
         opsi4= st.button("4-bromo-3-metilheksanaa")
     if opsi1:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi2:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi3:
-         st.write("benar")
+         st.write("BENAR!!")
          st.balloons()
     elif opsi4:
-         st.write("salah")
+         st.write("BENAR!!")
         
 elif Soal == "Soal 9":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
@@ -197,14 +197,14 @@ elif Soal == "Soal 9":
         opsi3= st.button("Endapan cermin perak")
         opsi4= st.button("Endapan atau minyak kuning-kuning coklat")
     if opsi1:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi2:
-          st.write("benar")
+         st.write("BENAR!!")
           st.balloons()
     elif opsi3:
-          st.write("salah")
+          st.write("SALAH!!")
     elif opsi4:
-          st.write("salah")
+          st.write("SALAH!!")
         
 elif Soal == "Soal 10 ":
     st.write("10. Kenapa keton sulit dioksidasi?")
@@ -216,14 +216,14 @@ elif Soal == "Soal 10 ":
         opsi3= st.button("karena sudah takdir")
         opsi4= st.button("Semuanya Benar")
     if opsi1:
-        st.write("salah")
+        st.write("SALAH!!")
     elif opsi2:
-        st.write("benar")
+        st.write("BENAR!!")
         st.balloons()
     elif opsi3:
-        st.write("salah")
+        st.write("SALAH!!")
     elif opsi4:
-        st.write("salah")
+        st.write("SALAH!!")
         
         
 #Pengolahan data titrimetri  
