@@ -71,7 +71,7 @@ if soal == "soal 2":
     elif opsi4:
         st.write("salah")
         
- if soal =="soal 3":
+ if soal == "soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
@@ -90,7 +90,7 @@ if soal == "soal 2":
     elif opsi4:
         st.write("salah")
         
-if soal =="soal 4":
+if soal == "soal 4":
     st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
@@ -109,7 +109,7 @@ if soal =="soal 4":
         st.write("benar")
         st.balloons()
         
-if soal =="soal 5":
+if soal == "soal 5":
     st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -128,7 +128,7 @@ if soal =="soal 5":
         st.write("benar")
         st.balloons()
         
-if soal =="soal 6":
+if soal == "soal 6":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -147,7 +147,7 @@ if soal =="soal 6":
     elif opsi4:
         st.write("salah") 
         
-if soal =="soal 7":
+if soal == "soal 7":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -166,7 +166,7 @@ if soal =="soal 7":
     elif opsi4:
         st.write("salah")
         
-if soal =="soal 8":
+if soal == "soal 8":
     st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -185,7 +185,7 @@ if soal =="soal 8":
     elif opsi4:
         st.write("salah")
         
-  if soal =="soal 9":
+  if soal == "soal 9":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
@@ -204,7 +204,7 @@ if soal =="soal 8":
     elif opsi4:
         st.write("salah")
         
-if soal =="soal 10 ":
+if soal == "soal 10 ":
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
