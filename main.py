@@ -11,8 +11,8 @@ with tab1:
             '3. Lulu lutfihana A.,' 
             '4. Pandan Tsiqqa A.,'
             '5. Stephanny Aprillilova')
-   image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
-   st.image(image, caption='labs')
+   st.image = (Image 2023-05-10 at 20.25.25.jpg')
+   
    if st.button('FILOSOFI TEMA'):
     st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
