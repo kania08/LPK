@@ -233,6 +233,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
 #Analisa data kimia organik       
 if (selected == 'Analisa Data Kimia Organik'):
     st.subheader('Uji Ceric Nitrat')
+    st.write("uji ceric nitrat adalah cara untuk menguji larutan untuk keberadaan alkohol atau fenol. Dalam larutan, amonium nitrat oranye-kuning membentuk kompleks dengan alkohol atau fenol, menghasilkan perubahan warna. Alkohol menyebabkan perubahan warna merah, sedangkan fenol menyebabkan perubahan warna merah tua menjadi coklat tua, tergantung fenol yang digunakan.") 
     jawaban = st.selectbox(
     'Warna akhir',
     ('Tidak Terjadi Perubahan','merah ceri'))
