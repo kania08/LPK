@@ -239,5 +239,5 @@ if (selected == 'Analisa Data Kimia Organik'):
     ('Tidak Terjadi Perubahan','merah ceri'))
     if jawaban == "Tidak Terjadi Perubahan":
         st.write('Senyawa tidak mengandung gugus Hidroksil')
-    else jawaban == "merah ceri":
+    elif jawaban == "merah ceri":
         st.write('Senyawa mengandung gugus Hidroksil')
