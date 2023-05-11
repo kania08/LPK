@@ -209,8 +209,7 @@ elif Soal == "Soal 10":
    
 
 with tab3:
-   st.header("Pengolahan Data Analisis Titrimetri")
-if (selected == 'Pengolahan Data Titrimetri'):
+    st.header("Pengolahan Data Analisis Titrimetri")
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
     Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
