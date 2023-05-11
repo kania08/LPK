@@ -32,7 +32,7 @@ st.image(image, caption='labs')
      
         
 #Latihan soal
-soal = st.selecbox(
+soal=st.selecbox(
     'pilih soal'
     ('soal 1','soal 2','soal ketiga','soal keempat','soal kelima','soal keenam','soal ketujuh','soal kedelapan','soal kesembilan','soal kesepuluh'))
     
