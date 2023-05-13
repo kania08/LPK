@@ -1,6 +1,7 @@
 import streamlit as st
-import streamlit as st
 from PIL import Image
+import tkinter as tk
+from tkinter import string var
 
 tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
@@ -18,191 +19,35 @@ with tab1:
     
 
 with tab2:
-   Soal=st.selectbox(
-    'pilih soal',
-    ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
-if Soal == "Soal 1":
-    st.write("titran pada standardisasi alkalimetri adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1 = st.button("HCL")
-        opsi2 = st.button("KMNO4")
-    with col2:
-        opsi3 = st.button("AgNO3")
-        opsi4 = st.button("NaOH")
-    if opsi1:
-        st.write("SALAH!!")
-    elif opsi2:
-        st.write("SALAH!!") 
-    elif opsi3:
-        st.write("SALAH!!")
-    elif opsi4:
-        st.write("BENAR!!")
-        st.balloons()
-elif Soal == "Soal2":
-    st.write("Indikator dalam standardisasi NaOH adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("SM")
-        opsi2= st.button("MM")
-    with col2:
-        opsi3= st.button("PP")
-        opsi4= st.button("BTB")
-    if opsi1:
-        st.write("SALAH!!")
-    elif opsi2:
-        st.write("SALAH!!")
-    elif opsi3:
-        st.write("BENAR!!")
-        st.balloons()
-    elif opsi4:
-        st.write("SALAH!!")
-elif Soal == "Soal 3":
-    st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("NA2S2O3 0,1N")
-        opsi2= st.button("KMnO7 0,1N")
-    with col2:
-        opsi3= st.button("Na2B407,1N")
-        opsi4= st.button("HCl 0,1N")
-    if opsi1:
-          st.write("BENAR!!")
-          st.balloons()
-    elif opsi2:
-          st.write("SALAH!!")
-    elif opsi3:
-          st.write("SALAH!!")
-    elif opsi4:
-          st.write("SALAH!!")     
-elif Soal == "Soal 4":
-    st.write("Mengapa pada titrasi permanganometri tidak digunakan indikator...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
-        opsi2= st.button("karena pemanasan yang dilakukan akan menyebabkan perubahan warna")
-    with col2:
-        opsi3= st.button("karena asam oksalat bersifat auto indikator")
-        opsi4= st.button("karena KMnO4 bersifat auto indikator")
-    if opsi1:
-          st.write("SALAH!!")
-    elif opsi2:
-        st.write("SALAH!!")
-    elif opsi3:
-        st.write("SALAH!!")
-    elif opsi4:
-        st.write("BENAR!!")
-        st.balloons() 
-elif Soal == "Soal 5":
-    st.write("Trayek pH Fenolftalein adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("3,1 - 4,4")
-        opsi2= st.button("6,0 - 7,6")
-    with col2:
-        opsi3= st.button("4,2 - 6,3")
-        opsi4= st.button("8,2 - 10")
-    if opsi1:
-          st.write("SALAH!!")
-    elif opsi2:
-          st.write("SALAH!!")
-    elif opsi3:
-         st.write("SALAH!!")
-    elif opsi4:
-          st.write("BENAR!!")
-          st.balloons()
-elif Soal == "Soal 6":
-    st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("1-bromo-1-siklobutilpropana dan 2-bromopropana")
-        opsi2= st.button("Metilbromida dan 2-bromo-3-siklobutilpentana")
-    with col2:
-        opsi3= st.button("2-bromo-3-siklobutilpentana dan metilbromida")
-        opsi4= st.button("2-bromopropana dan 1-bromo-1-siklopropilpropana")
-    if opsi1:
-         st.write("SALAH!!")
-    elif opsi2:
-          st.write("SALAH!!")
-    elif opsi3:
-          st.write("BENAR!!")
-          st.balloons()
-    elif opsi4:
-          st.write("SALAH!!")
-elif Soal == "Soal 7":
-    st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("AgNO3 + NaOH + NH4OH")
-        opsi2= st.button("Etanol + Air + HCl")
-    with col2:
-        opsi3= st.button("CuSO4 + NaOH + NaK-Tartrat")
-        opsi4= st.button("CuSO4 + Na2CO3")
-    if opsi1:
-          st.write("BENAR!!")
-          st.balloons()
-    elif opsi2:
-          st.write("SALAH!!")
-    elif opsi3:
-          st.write("SALAH!!")
-    elif opsi4:
-         st.write("SALAH!!")
-elif Soal == "Soal 8":
-    st.write("Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("3-bromo-4-metilheksana")
-        opsi2= st.button("3-bromoheksana")
-    with col2:
-        opsi3= st.button("3-bromo-3-metilheksana")
-        opsi4= st.button("4-bromo-3-metilheksanaa")
-    if opsi1:
-          st.write("SALAH!!")
-    elif opsi2:
-          st.write("SALAH!!")
-    elif opsi3:
-         st.write("BENAR!!")
-         st.balloons()
-    elif opsi4:
-         st.write("BENAR!!")
-elif Soal == "Soal 9":
-    st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("Endapan merah bata")
-        opsi2= st.button("Endapan putih")
-    with col2:
-        opsi3= st.button("Endapan cermin perak")
-        opsi4= st.button("Endapan atau minyak kuning-kuning coklat")
-    if opsi1:
-          st.write("SALAH!!")
-    elif opsi2:
-         st.write("BENAR!!")
-         st.balloons()
-    elif opsi3:
-          st.write("SALAH!!")
-    elif opsi4:
-          st.write("SALAH!!")
-elif Soal == "Soal 10":
-    st.write("Kenapa keton sulit dioksidasi?")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("karena pH 10")
-        opsi2= st.button("karena tidak ada gugus hidrogennya")
-    with col2:
-        opsi3= st.button("karena sudah takdir")
-        opsi4= st.button("Semuanya Benar")
-    if opsi1:
-        st.write("SALAH!!")
-    elif opsi2:
-        st.write("BENAR!!")
-        st.balloons()
-    elif opsi3:
-        st.write("SALAH!!")
-    elif opsi4:
-        st.write("SALAH!!")
-         
-         
+root =tk.Tk()
+root.geometry('500x500')
+
+question = ['ya or no = ?','betul betul...','begitukah?','yuhu...']
+options=[['s','b','c','y'],['a','b','c','d'],['1','2','3','hm'],['apa','iy','dik','ok']]
+
+frame = tk.Frame(root, padx=10,pady=10,bg='#fff')
+question_label= tk.Label(frame,height=5, width=28,font('Verdana',20),wraplength=500)
+
+option1 = tk.Radiobutton(frame, bg='#fff',font('Verdana',20))   
+option2 = tk.Radiobutton(frame, bg='#fff',font('Verdana',20))
+option3 = tk.Radiobutton(frame, bg='#fff',font('Verdana',20))
+option4 = tk.Radiobutton(frame, bg='#fff',font('Verdana',20))
+
+button_next = tk.Button(frame, text='Next',font('Verdana',20))
+
+frame.pack(fill='both',expand=true)
+question_label.grid(row=0,column=0)
+
+option1.grid(row=1, column=0)
+option2.grid(row=2, column=0)
+option3.grid(row=3, column=0)
+option4.grid(row=4, column=0)
+
+button_next.grid(row=1,column=0)
+
+root.mainloop()
+
+
 with tab3:
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
