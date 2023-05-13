@@ -6,7 +6,6 @@ from PIL import Image
 with st.sidebar:
    selected = option_menu('Analisis Titrimetri & Kimia Organik',
                           ['Homepage',
-                           'Latihan Soal',
                            'Pengolahan Data Analisis Titrimetri',
                            'Analisa Data Kimia Organik'],
                           default_index=0)
@@ -26,7 +25,6 @@ with st.sidebar:
     
 
 #Latihan
-if (selected == 'Latihan'):
   Soal = st.selectbox(
     'pilihan soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
