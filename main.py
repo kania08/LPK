@@ -68,6 +68,8 @@ elif Soal == "Soal 2":
     elif opsi3:
         score+=1
         st.write("BENAR!!")
+        st.write('Score: ', score)
+        st.write('\n')
         st.balloons()
     elif opsi4:
         st.write("SALAH!!")
