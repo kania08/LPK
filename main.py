@@ -30,8 +30,8 @@ if (selcted == 'Latihan Soal'):
    st.title('Latihan Soal')
    
 #soal pertama
-    st.write("1. Titran pada standardisasi alkalimetri adalah...")
-    col1, col2 = st.columns (2)
+st.write("1. Titran pada standardisasi alkalimetri adalah...")
+col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
         opsi2 = st.button("KMNO4")
@@ -60,9 +60,9 @@ if (selcted == 'Latihan Soal'):
         st.balloons()
 
 #soal kedua
-    st.write("2. indikator dalam standardisasi NaOH adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
+st.write("2. indikator dalam standardisasi NaOH adalah...")
+col1, col2 = st.columns (2)
+   with col1:
         opsi1= st.button("SM")
         opsi2= st.button("MM")
     with col2:
