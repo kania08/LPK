@@ -28,7 +28,6 @@ with st.sidebar:
 #Latihan
 if (selcted == 'Latihan Soal'):
    st.title('Latihan Soal')
-   
     #soal pertama
     st.write("1. Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
