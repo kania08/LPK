@@ -29,39 +29,39 @@ with st.sidebar:
 if (selcted == 'Latihan Soal'):
    st.title('Latihan Soal')
    
-#soal pertama
-st.write("1. Titran pada standardisasi alkalimetri adalah...")
-col1, col2 = st.columns (2)
+    #soal pertama
+    st.write("1. Titran pada standardisasi alkalimetri adalah...")
+    col1, col2 = st.columns (2)
     with col1:
-        opsi1 = st.button("HCL")
-        opsi2 = st.button("KMNO4")
+         opsi1 = st.button("HCL")
+         opsi2 = st.button("KMNO4")
     with col2:
-        opsi3 = st.button("AgNO3")
-        opsi4 = st.button("NaOH")
+         opsi3 = st.button("AgNO3")
+         opsi4 = st.button("NaOH")
     if opsi1:
-        score=score+0
-        st.write("SALAH!!")
-        st.write('Score: ', score)
-        st.write('\n')
+         score=score+0
+         st.write("SALAH!!")
+         st.write('Score: ', score)
+         st.write('\n')
     elif opsi2:
-        score=score+0
-        st.write("SALAH!!") 
-        st.write('Score: ', score)
-        st.write('\n')
+         score=score+0
+         st.write("SALAH!!") 
+         st.write('Score: ', score)
+         st.write('\n')
     elif opsi3:
-        score=score+0
-        st.write("SALAH!!")
-        st.write('Score: ', score)
-        st.write('\n')
+         score=score+0
+         st.write("SALAH!!")
+         st.write('Score: ', score)
+         st.write('\n')
     elif opsi4:
-        score=score+10
-        st.write("BENAR!!")
-        st.write('Score yang kamu dapat adalah',score)
-        st.balloons()
+         score=score+0
+         st.write("BENAR!!")
+         st.write('Score yang kamu dapat adalah',score)
+         st.balloons()
 
-#soal kedua
-st.write("2. indikator dalam standardisasi NaOH adalah...")
-col1, col2 = st.columns (2)
+   #soal kedua
+   st.write("2. indikator dalam standardisasi NaOH adalah...")
+   col1, col2 = st.columns (2)
    with col1:
         opsi1= st.button("SM")
         opsi2= st.button("MM")
@@ -87,7 +87,7 @@ col1, col2 = st.columns (2)
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
-#soal ketiga
+    #soal ketiga
     st.write("3. K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
@@ -106,7 +106,7 @@ col1, col2 = st.columns (2)
           st.write("SALAH!!")
     elif opsi4:
           st.write("SALAH!!")     
-#soal keempat
+    #soal keempat
     st.write("4. Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
@@ -125,7 +125,7 @@ col1, col2 = st.columns (2)
         score+=1
         st.write("BENAR!!")
         st.balloons() 
-#soal kelima
+    #soal kelima
     st.write("5. Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -143,7 +143,7 @@ col1, col2 = st.columns (2)
     elif opsi4:
           st.write("BENAR!!")
           st.balloons()
-#soal keenam
+    #soal keenam
     st.write("6. Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -161,7 +161,7 @@ col1, col2 = st.columns (2)
           st.balloons()
     elif opsi4:
           st.write("SALAH!!")
-#soal ketujuh
+    #soal ketujuh
     st.write("7. Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -179,7 +179,7 @@ col1, col2 = st.columns (2)
           st.write("SALAH!!")
     elif opsi4:
          st.write("SALAH!!")
-#soal kedelapan
+    #soal kedelapan
     st.write("8. Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -197,7 +197,7 @@ col1, col2 = st.columns (2)
          st.balloons()
     elif opsi4:
          st.write("BENAR!!")
-#soal kesembilan
+    #soal kesembilan
     st.write("9. Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
@@ -217,7 +217,7 @@ col1, col2 = st.columns (2)
           st.write("salah!!")
        
       
- #soal kesepuluh
+    #soal kesepuluh
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
