@@ -48,7 +48,7 @@ if Soal == "Soal 1":
         st.write('Score: ', score)
         st.write('\n')
         st.balloons()
-elif Soal == "Soal2":
+elif Soal == "Soal 2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
