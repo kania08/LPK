@@ -218,7 +218,7 @@ elif Soal == "Soal 10":
     elif opsi3:
         st.write("SALAH!!")
     elif opsi4:
-        st.write("SALAH!!"
+        st.write("SALAH!!")
 
 with tab3:
     bobot = st.number_input('Masukkan bobot sample')
