@@ -17,7 +17,7 @@ with tab1:
     
 
 with tab2:
-   score = 0
+   score=0
    Soal=st.selectbox(
     'pilih soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
@@ -43,8 +43,8 @@ if Soal == "Soal 1":
         st.write('Score: ', score)
         st.write('\n')
     elif opsi4:
-        score = score + 10
-        st.write("BENAR!!, score kamu adalah {score}")
+        score=score+10
+        st.write("BENAR!!, score kamu adalah ", score)
         st.balloons()
 elif Soal == "Soal 2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
@@ -64,8 +64,8 @@ elif Soal == "Soal 2":
         st.write('Score: ', score)
         st.write('\n')
     elif opsi3:
-        score = score + 10
-        st.write("BENAR!!, score kamu adalah {score}")
+        score=score+10
+        st.write("BENAR!!, score kamu adalah ", score)
         st.balloons()
     elif opsi4:
         st.write("SALAH!!")
