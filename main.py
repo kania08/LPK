@@ -234,7 +234,6 @@ elif Soal == "Soal 10":
         st.write("SALAH!!")
     elif opsi4:
         st.write("SALAH!!")
-
 if (selected == 'Pengolahan Data Titrimetri'):
     bobot = st.number_input('Masukkan bobot sample')
     volume = st.number_input('Masukkan volume larutan yang di standarisasi')
