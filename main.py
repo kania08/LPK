@@ -11,13 +11,14 @@ with st.sidebar:
                            'Analisa Data Kimia Organik'],
                           default_index=0)
    #homepage
-   if (selected =='homepage') :
+   if (selected =='Homepage') :
          st.title(':blue[WELCOME!]')
-         st.write('Ekke Rose M.,'
-                   'Kania Meilani,'
-                   'Lulu lutfihana A.,' 
-            '      'Pandan Tsiqqa A.,'
-                   'Stephanny Aprillilova')
+         st.write('EKKE ROSE M.,'
+                  'KANIA MEILANI,'
+                  'LULU LUTFIHANA A.,'
+                  'PANDAN TSIQQA A.,'
+                  'STEPHANNY APRILLILOVA')
+         
    image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
    st.image(image, caption='anak kimia')
    st.header('FILOSOFI TEMA')
