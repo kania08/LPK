@@ -31,20 +31,24 @@ if Soal == "Soal 1":
         opsi3 = st.button("AgNO3")
         opsi4 = st.button("NaOH")
     if opsi1:
+        score=score+0
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
     elif opsi2:
+        score=score+0
         st.write("SALAH!!") 
         st.write('Score: ', score)
         st.write('\n')
     elif opsi3:
+        score=score+0
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
     elif opsi4:
         score=score+10
-        st.write("BENAR!!, score kamu adalah ", score)
+        st.write("BENAR!!")
+        st.write('Score yang kamu dapat adalah',score)
         st.balloons()
 elif Soal == "Soal 2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
@@ -56,10 +60,12 @@ elif Soal == "Soal 2":
         opsi3= st.button("PP")
         opsi4= st.button("BTB")
     if opsi1:
+        score=score+0
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
     elif opsi2:
+        score=score+0
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
@@ -68,6 +74,7 @@ elif Soal == "Soal 2":
         st.write("BENAR!!, score kamu adalah ", score)
         st.balloons()
     elif opsi4:
+        score=score+0
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
@@ -81,7 +88,7 @@ elif Soal == "Soal 3":
         opsi3= st.button("Na2B407,1N")
         opsi4= st.button("HCl 0,1N")
     if opsi1:
-          score+=1
+          score+=10
           st.write("BENAR!!")
           st.balloons()
     elif opsi2:
