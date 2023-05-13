@@ -88,8 +88,7 @@ elif Soal == "Soal 2":
         st.write("SALAH!!")
         st.write('Score: ', score)
         st.write('\n')
-
- elif Soal == "Soal 3":
+elif Soal == "Soal 3":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
