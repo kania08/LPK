@@ -43,10 +43,8 @@ if Soal == "Soal 1":
         st.write('Score: ', score)
         st.write('\n')
     elif opsi4:
-        score+=1
-        st.write("BENAR!!")
-        st.write('Score: ', score)
-        st.write('\n')
+        score = score + 10
+        st.write("BENAR!!, score kamu adalah {score}")
         st.balloons()
 elif Soal == "Soal 2":
     st.write("Indikator dalam standardisasi NaOH adalah...")
@@ -66,10 +64,8 @@ elif Soal == "Soal 2":
         st.write('Score: ', score)
         st.write('\n')
     elif opsi3:
-        score+=1
-        st.write("BENAR!!")
-        st.write('Score: ', score)
-        st.write('\n')
+        score = score + 10
+        st.write("BENAR!!, score kamu adalah {score}")
         st.balloons()
     elif opsi4:
         st.write("SALAH!!")
