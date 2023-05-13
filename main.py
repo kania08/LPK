@@ -1,7 +1,5 @@
 import streamlit as st
 from PIL import Image
-import tkinter as tk
-from tkinter import string var
 
 tab1, tab2, tab3, tab4 = st.tabs(["Homepage", "Latihan Soal", "Pengolahan Data Analisis Titrimetri", "Analisa Data Kimia Organik"])
 
