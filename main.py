@@ -244,13 +244,7 @@ if (selected == 'Pengolahan Data Titrimetri'):
         st.success(f'nilai normalitas adalah{nilai_normalitas}') 
       
       
-if (selected == 'Analisa Data Kimia Organik')
-        st.write("1-butanol","2-butanol","t-butilalkohol","heksana","formaldehida","aseton")
-        st.write("uji ceric nitrat")
 
-sampel = st.text_input('masukkan sampel')
-ujisampel = st.text_input('masukkan uji sampel')
-perubahanwarna = st.button('warna akhir sampel')
 
         
 
