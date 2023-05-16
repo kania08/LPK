@@ -297,15 +297,14 @@ if (selected == 'Pengolahan Data Titrimetri'):
         nilai_normalitas=bobot/(volume*Beratekivalen)
         st.success(f'nilai normalitas adalah{nilai_normalitas}') 
 if (selected == 'Analisa Data Kimia Organik'):
-   warnaakhir = st.text_input('Masukkan warna akhir sample (tulis dengan huruf lowercase')
-   tombol1=st.button('Uji Ceric Nitrat')
-   l
-   if tombol1:
-      warnaakhir==merah ceri
-      st.write('senyawa mengandung gugus hidroksil')
-      warnaakhir==tidak berubah warna
-      st.write('senyawa tidak mengandung gugus hidroksil')
-      
+   st.header('Uji Ceric Nitrat')
+   option = st.selectbox(
+    'Apa warna akhir yang di dapat?',
+    ('Merah ceri', 'Tidak berwarna'))
+   if (selected == 'Merah ceri'):
+      st.write('senyawa yang mengandung gugus hidroksil')
+   if (selected == 'Tidak berwarna'):
+      st.write('senyawa yang tidak mengandung gugus hidroksil')
       
       
       
