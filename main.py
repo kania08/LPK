@@ -28,36 +28,32 @@ with st.sidebar:
 #Latihan
 if (selcted == 'Latihan Soal'):
    st.title('Latihan Soal')
-    #soal pertama
-    st.write("1. Titran pada standardisasi alkalimetri adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-         opsi1 = st.button("HCL")
-         opsi2 = st.button("KMNO4")
-    with col2:
-         opsi3 = st.button("AgNO3")
-         opsi4 = st.button("NaOH")
-    if opsi1:
-         score=score+0
-         st.write("SALAH!!")
-         st.write('Score: ', score)
-         st.write('\n')
-    elif opsi2:
-         score=score+0
-         st.write("SALAH!!") 
-         st.write('Score: ', score)
-         st.write('\n')
-    elif opsi3:
-         score=score+0
-         st.write("SALAH!!")
-         st.write('Score: ', score)
-         st.write('\n')
-    elif opsi4:
-         score=score+0
-         st.write("BENAR!!")
-         st.write('Score yang kamu dapat adalah',score)
-         st.balloons()
-
+   #soal pertama
+   st.write('1. Titran pada standardisasi alkalimetri adalah...')
+   col1, col2 = st.columns (2)
+   with col1:
+      opsi1 = st.button("HCL")
+      opsi2 = st.button("KMNO4")
+   with col2:
+      opsi3 = st.button("AgNO3")
+      opsi4 = st.button("NaOH")
+   if opsi1:
+      score=score+0
+      st.write("SALAH!!")
+      st.write('Kamu mendapat score', score)
+   elif opsi2:
+      score=score+0
+      st.write("SALAH!!") 
+      st.write('Kamu mendapat score', score)
+   elif opsi3:
+      score=score+0
+      st.write("SALAH!!")
+      st.write('Kamu mendapat score', score)
+   elif opsi4:
+      score=score+10
+      st.write("BENAR!!")
+      st.write('Kamu mendapat score', score)
+      st.balloons()
    #soal kedua
    st.write("2. indikator dalam standardisasi NaOH adalah...")
    col1, col2 = st.columns (2)
@@ -70,21 +66,21 @@ if (selcted == 'Latihan Soal'):
     if opsi1:
         score=score+0
         st.write("SALAH!!")
-        st.write('Score: ', score)
+        st.write('Kamu mendapat score', score)
         st.write('\n')
     elif opsi2:
         score=score+0
         st.write("SALAH!!")
-        st.write('Score: ', score)
+        st.write('Kamu mendapat score', score)
         st.write('\n')
     elif opsi3:
         score=score+10
-        st.write("BENAR!!, score kamu adalah ", score)
+        st.write('Kamu mendapat score', score)
         st.balloons()
     elif opsi4:
         score=score+0
         st.write("SALAH!!")
-        st.write('Score: ', score)
+        st.write('Kamu mendapat score', score)
         st.write('\n')
     #soal ketiga
     st.write("3. K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
@@ -100,10 +96,13 @@ if (selcted == 'Latihan Soal'):
           st.write("BENAR!!")
           st.balloons()
     elif opsi2:
+          score=score+0
           st.write("SALAH!!")
     elif opsi3:
+          score=score+0
           st.write("SALAH!!")
     elif opsi4:
+          score=score+0
           st.write("SALAH!!")     
     #soal keempat
     st.write("4. Mengapa pada titrasi permanganometri tidak digunakan indikator...")
@@ -115,13 +114,16 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("karena asam oksalat bersifat auto indikator")
         opsi4= st.button("karena KMnO4 bersifat auto indikator")
     if opsi1:
-          st.write("SALAH!!")
+        score=score+0
+        st.write("SALAH!!")
     elif opsi2:
+        score=score+0
         st.write("SALAH!!")
     elif opsi3:
+        score=score+0
         st.write("SALAH!!")
     elif opsi4:
-        score+=1
+        score=score+10
         st.write("BENAR!!")
         st.balloons() 
     #soal kelima
@@ -134,12 +136,16 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("4,2 - 6,3")
         opsi4= st.button("8,2 - 10")
     if opsi1:
+          score=score+0
           st.write("SALAH!!")
     elif opsi2:
+          score=score+0
           st.write("SALAH!!")
     elif opsi3:
+         score=score+0
          st.write("SALAH!!")
     elif opsi4:
+          score=score+10
           st.write("BENAR!!")
           st.balloons()
     #soal keenam
@@ -152,13 +158,17 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("2-bromo-3-siklobutilpentana dan metilbromida")
         opsi4= st.button("2-bromopropana dan 1-bromo-1-siklopropilpropana")
     if opsi1:
+         score=score+0
          st.write("SALAH!!")
     elif opsi2:
+          score=score+0
           st.write("SALAH!!")
     elif opsi3:
+          score=score+10
           st.write("BENAR!!")
           st.balloons()
     elif opsi4:
+          score=score+0
           st.write("SALAH!!")
     #soal ketujuh
     st.write("7. Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
@@ -170,13 +180,17 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("CuSO4 + NaOH + NaK-Tartrat")
         opsi4= st.button("CuSO4 + Na2CO3")
     if opsi1:
+          score=score+10
           st.write("BENAR!!")
           st.balloons()
     elif opsi2:
+          score=score+0
           st.write("SALAH!!")
     elif opsi3:
+          score=score+0
           st.write("SALAH!!")
     elif opsi4:
+         score=score+0
          st.write("SALAH!!")
     #soal kedelapan
     st.write("8. Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
@@ -188,13 +202,17 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("3-bromo-3-metilheksana")
         opsi4= st.button("4-bromo-3-metilheksanaa")
     if opsi1:
+          score=score+0
           st.write("SALAH!!")
     elif opsi2:
+          score=score+0
           st.write("SALAH!!")
     elif opsi3:
+         score=score+10
          st.write("BENAR!!")
          st.balloons()
     elif opsi4:
+         score=score+
          st.write("BENAR!!")
     #soal kesembilan
     st.write("9. Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
@@ -206,16 +224,18 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("Endapan cermin perak")
         opsi4= st.button("Endapan atau minyak kuning-kuning coklat")
     if opsi1:
+          score=score+0
           st.write("SALAH!!")
     elif opsi2:
+         score=score+10
          st.write("BENAR!!")
          st.balloons()
     elif opsi3:
+          score=score+0
           st.write("SALAH!!")
     elif opsi4:
+          score=score+0
           st.write("salah!!")
-       
-      
     #soal kesepuluh
     st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
@@ -226,13 +246,17 @@ if (selcted == 'Latihan Soal'):
         opsi3= st.button("karena sudah takdir")
         opsi4= st.button("Semuanya Benar")
     if opsi1:
+        score=score+0
         st.write("SALAH!!")
     elif opsi2:
+        score=score+10
         st.write("BENAR!!")
         st.balloons()
     elif opsi3:
+         score=score+0
         st.write("SALAH!!")
     elif opsi4:
+        score=score+0
         st.write("SALAH!!")
 if (selected == 'Pengolahan Data Titrimetri'):
     bobot = st.number_input('Masukkan bobot sample')
