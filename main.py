@@ -21,7 +21,7 @@ if (selected =='Homepage') :
      image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
      st.image(image, caption='anak kimia')
      st.header('FILOSOFI TEMA')
-     st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
+     st.write('Tema dari website kami yaitu LABERS dimana tema kami mengusung seorang analisis kimia atau dalam bidang ahli kimia pastinya tidak asing dalam ruangan laboratorium dalam hal berbagai pengujian dan penelitian')
     
 
 #Latihan
