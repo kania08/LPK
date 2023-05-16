@@ -298,11 +298,12 @@ if (selected == 'Pengolahan Data Titrimetri'):
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
    option = st.selectbox(
-    'Apa warna akhir yang di dapat?',
-    ('Merah ceri', 'Tidak berwarna'))
-   if (selected == 'Merah ceri'):
+    'Apa warna akhir yang di dapat?')
+   opsi1=st.button('Merah ceri')
+   opsi2=st.button('Tidak berwarna')
+   if opsi1:
       st.write('senyawa yang mengandung gugus hidroksil')
-   if (selected == 'Tidak berwarna'):
+   else opsi2:
       st.write('senyawa yang tidak mengandung gugus hidroksil')
       
       
