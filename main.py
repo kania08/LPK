@@ -26,7 +26,7 @@ st.write('tema kita yaitu LABERS yaitu seorang analisis kimia atau dalam bidang 
     
 
 #Latihan
-if (selcted == 'Latihan Soal'):
+if (selected == 'Latihan Soal'):
    st.title('Latihan Soal')
    #soal pertama
    st.write('1. Titran pada standardisasi alkalimetri adalah...')
