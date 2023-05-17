@@ -295,9 +295,9 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
    tombol=st.button('hitung normalitas')
    if tombol:
         nilainormalitas=bobot/(volume*Beratekivalen)
-        df=pd.DataFrame(nilainormalitas)
+        nilainormalitas.round(4)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
-        df.round(4)
+       
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
    sample=st.text_input('Masukkan saample yang digunakan')
