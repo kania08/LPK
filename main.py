@@ -294,7 +294,8 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
    tombol=st.button('hitung normalitas')
    if tombol:
-        nilainormalitas=(bobot/(volume*Beratekivalen),round(4))
+        nilainormalitas=(bobot/(volume*Beratekivalen)
+                         format='%.4f')
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
        
 if (selected == 'Analisa Data Kimia Organik'):
