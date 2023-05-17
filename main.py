@@ -303,7 +303,7 @@ if (selected == 'Analisa Data Kimia Organik'):
    if tombol1:
       st.write('senyawa yang mengandung gugus hidroksil')
    tombol2=st.button('Tidak berwarna')
-   else tombol2:
+   if tombol2:
       st.write('senyawa yang tidak mengandung gugus hidroksil')
       
       
