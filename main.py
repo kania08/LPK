@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from streamlit_option_menu import option_menu
 from PIL import Image
+score=0
 
 #navigasi sidebar
 with st.sidebar:
