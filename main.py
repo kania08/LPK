@@ -301,9 +301,9 @@ if (selected == 'Analisa Data Kimia Organik'):
    option = st.selectbox(
     ('Merah ceri, Tidak berwarna')
     
-   if (option=='Merah ceri')
+   if (option=='Merah ceri'):
       st.write('senyawa yang mengandung gugus hidroksil')
-   else (option=='Tidak berwarna')
+   else (option=='Tidak berwarna'):
       st.write('senyawa yang tidak mengandung gugus hidroksil')
       
       
