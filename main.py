@@ -296,8 +296,8 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
    tombol=st.button('hitung normalitas')
    if tombol:
         nilainormalitas=bobot/(volume*Beratekivalen)
-        rounded_nilainormalitas=round(nilainormalitas,4)
-        st.success(f'nilai normalitas adalah{nilainormalitas}',rounded_nilainormalitas)
+        rounded_nilainormalitas=format(nilainormalitas, ".4f")
+        st.success(f'nilai normalitas adalah{rounded_nilainormalitas}')
        
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
