@@ -300,10 +300,10 @@ if (selected == 'Analisa Data Kimia Organik'):
    sample=st.text_input('Masukkan saample yang digunakan')
    st.write('Silahkan Klik Button Di Bawah Sesuai dengan warna akhir yang didapat')
    tombol1=st.button('Merah ceri')
-   tombol2=st.button('Tidak berwarna')
    if tombol1:
       st.write('senyawa yang mengandung gugus hidroksil')
-   else tombol2:
+   tombol2=st.button('Tidak berwarna')
+   if tombol2:
       st.write('senyawa yang tidak mengandung gugus hidroksil')
       
       
