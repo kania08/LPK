@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from streamlit_option_menu import option_menu
 from PIL import Image
 
@@ -294,8 +295,8 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
    tombol=st.button('hitung normalitas')
    if tombol:
-        nilainormalitas=(bobot/(volume*Beratekivalen)
-                         format='%.4f')
+        nilainormalitas=bobot/(volume*Beratekivalen)
+        rounded_nilainormalitas=round(nilainormalitas,4)
         st.success(f'nilai normalitas adalah{nilai_normalitas}')
        
 if (selected == 'Analisa Data Kimia Organik'):
