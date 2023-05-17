@@ -294,9 +294,10 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
    tombol=st.button('hitung normalitas')
    if tombol:
-        nilai_normalitas=bobot/(volume*Beratekivalen)
-        st.success(f'nilai normalitas adalah{nilai_normalitas},
-                   format='%.4f') 
+        nilainormalitas=bobot/(volume*Beratekivalen)
+        df=pd.DataFrame(nilainormalitas)
+        st.success(f'nilai normalitas adalah{nilai_normalitas}')
+        df.round(4)
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
    sample=st.text_input('Masukkan saample yang digunakan')
