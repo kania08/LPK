@@ -287,7 +287,7 @@ if (selected == 'Latihan Soal'):
         score=score+0
         st.write("SALAH!!")
         st.write('Kamu mendapat score', score)
-if (selected == 'Pengolahan Data Titrimetri'):
+if (selected == 'Pengolahan Data Analisis Titrimetri'):
    bobot = st.number_input('Masukkan bobot sample')
    volume = st.number_input('Masukkan volume larutan yang di standarisasi')
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
