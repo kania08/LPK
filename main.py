@@ -290,13 +290,13 @@ if (selected == 'Latihan Soal'):
 if (selected == 'Pengolahan Data Analisis Titrimetri'):
    bobot = st.number_input('Masukkan bobot sample',
                            format='%.4f')
-   
    volume = st.number_input('Masukkan volume larutan yang di standarisasi')
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
    tombol=st.button('hitung normalitas')
    if tombol:
         nilai_normalitas=bobot/(volume*Beratekivalen)
-        st.success(f'nilai normalitas adalah{nilai_normalitas}') 
+        st.success(f'nilai normalitas adalah{nilai_normalitas},
+                   format='%.4f') 
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
    sample=st.text_input('Masukkan saample yang digunakan')
