@@ -288,9 +288,9 @@ if (selected == 'Latihan Soal'):
         st.write("SALAH!!")
         st.write('Kamu mendapat score', score)
 if (selected == 'Pengolahan Data Analisis Titrimetri'):
-   bobot = st.number_input('Masukkan bobot sample')
-   df=pd.DataFrame(bobot)
-   df.round(4)
+   bobot = st.number_input('Masukkan bobot sample',
+                           format='%.4f')
+   
    volume = st.number_input('Masukkan volume larutan yang di standarisasi')
    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
    tombol=st.button('hitung normalitas')
