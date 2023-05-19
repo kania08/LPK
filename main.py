@@ -304,14 +304,17 @@ if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
    st.write('Uji Ceric adalah Uji yang digunakan dalam Praktikum Kimia Organik yang digunakan untuk mengetahui adanya Alkohol dalam suatu sampel. Ketika Ceric Nitrat direaksikan dengan sampel akan membentuk senyawa kompleks berwarna merah ceri, namun senyawa kompleks ini dapat teroksidasi oleh suhu atau cahaya. Sehingga warnanya kembali tidak berwarna')
    st.write('Cara Kerja Uji ini adalah dengan memasukkan 1 drop sampel dan 5 tetes pereaksi Ceric nitrat lalu dihomogenkan dan diamati perubahan yang terjadi')            
-   st.write('Silahkan Klik Button Di Bawah Sesuai dengan warna akhir yang didapat')
-   tombol1=st.button('Merah ceri')
+   st.write('Berikut merupakan sampel yang digunakan dalam Uji Ceric Nitrat')
+   tombol1=st.button('1-Butanol')
    if tombol1:
-      st.write('senyawa yang mengandung gugus hidroksil')
-   tombol2=st.button('Tidak berwarna')
+      st.write('Senyawa ini Uji positif terhadap pereaksi Ceric Nitrat, ditandai dengan perubahan warna menjadi merah ceri')
+   tombol2=st.button('Formaldehida')
    if tombol2:
-      st.write('senyawa yang tidak mengandung gugus hidroksil')
-      
+      st.write('Senyawa ini Uji negatif terhadap pereaksi Ceric Nitrat ')
+   tombol3=st.button('Aseton')
+   if tombol3:
+      st.write('Senyawa ini Uji negatif terhadap pereaksi Ceric Nitrat ')
+   
       
       
 
