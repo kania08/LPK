@@ -302,7 +302,7 @@ if (selected == 'Pengolahan Data Analisis Titrimetri'):
        
 if (selected == 'Analisa Data Kimia Organik'):
    st.header('Uji Ceric Nitrat')
-   sample=st.text_input('Masukkan saample yang digunakan')
+   st.write('Uji Ceric adalah Uji yang digunakan dalam Praktikum Kimia Organik yang digunakan untuk mengetahui adanya Alkohol dalam suatu sampel')
    st.write('Silahkan Klik Button Di Bawah Sesuai dengan warna akhir yang didapat')
    tombol1=st.button('Merah ceri')
    if tombol1:
